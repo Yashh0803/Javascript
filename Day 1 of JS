@@ -1,0 +1,89 @@
+-- Javascript--
+i.    Javascript is high level programming language which is used to create interactive web pages.
+ii.   It is only language understand by browser.
+iii.  It is dynamically typed language.
+iv.   You can used javascript at client side as well as server side.
+v.    There are lots of frameworks and libraries are depend on javascript.
+vi.   It is lossely or quickly typed programming language.
+vii.  It is synchronous language.
+viii. It is object based programming language.
+
+--History Of JavaScript-------------------------------------------------------------------------------------------------------------
+
+In 1995 javascript is created by "breden eich".
+He introduced one language i.e,Mocha again they have rename to livescript after that livescript is also called as javascript after that javascript
+is handled by ECMA (Europiean computer manfacture association) thats why developers are calling as ECMA script.
+
+--Data type --------------------------------------------------------------------------------------------------------------------------
+Primitive Data Type----
+A primitive stores a single value directly in memory.
+When you copy a primitive value, JavaScript creates a separate copy.
+
+--Characteristics of Primitive Data Type---------------------------------------------------------------------------------------------------------------------
+Stores actual value.
+Immutable (cannot be changed directly).
+Compared by value.
+Copied as a separate value.
+
+i.  Number
+example: let age = 22;
+         let price = 99.99;
+         console.log( type of age);    //number
+         console.log (type of price);  //nummber
+
+ii. Boolean
+example: let isStudent = true;
+         console.log(typeof isStudent); // boolean
+
+iii.String
+let name = "Yash";
+console.log(name);        // Yash
+console.log(typeof name); // string
+
+iv. Null
+let marks = null;
+console.log(marks);         // null
+console.log(typeof marks); 
+
+v.  Defined
+let city;
+console.log(city);         // undefined
+console.log(typeof city); 
+
+Non primitive data type ---------------------------------------------------------------------------------------------------------------
+Non-primitive data types store a reference (address) to the value.
+When you copy a non-primitive value, both variables point to the same object in memory.
+
+--Characteristics------------------------------------------------------------------------------------------------------------------------
+Stores memory address (reference)
+Mutable (can be changed)
+Compared by reference
+Copied as a reference
+
+i.  Function
+let student = {
+    name: "Yash",
+    age: 22
+};
+
+console.log(student.name);   // Yash
+console.log(typeof student); // object
+
+ii. Array 
+let fruits = ["Apple", "Banana", "Mango"];
+
+console.log(fruits[0]);      // Apple
+console.log(typeof fruits);  // object
+
+iii.Object
+function greet() {
+    return "Hello";
+}
+console.log(greet());        // Hello
+console.log(typeof greet);   // function
+
+iv. Date
+v.  Map
+vi. Set
+
+
