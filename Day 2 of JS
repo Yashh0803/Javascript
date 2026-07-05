@@ -1,6 +1,56 @@
 --- variable ----------------------------------------------------------
 
 Variable is naming but name given to the block of memory.
+A variable in JavaScript is a named container used to store data. The value stored in a variable can change while the program runs.
 We can create a variable in javascript using declaration types.
 
 -- Syntax--
+variable_declaration_type  variable_name = value;
+ex: 
+let age = 20;
+
+Declaration type :--
+ There are three types of declaration 
+i. var  ii. let  iii. const
+
+i. var :--
+            var is traditional way to declare the variables.
+            It can be redeclared and update the value within the scope.
+            It Can be reassigned and declare without initialization also it can be accessed before declaration and its returns undefined.
+            Function-scoped.
+            Older way (before ES6).
+
+example : var city = "Mumbai";
+          console.log(city);
+
+          city = "Pune"; // Reassigned
+          console.log(city);
+
+          var city = "Delhi"; // Redeclared
+          console.log(city);
+
+ii. let :--
+            Cannot be redeclared in the same scope.
+            Can be reassigned.
+            Block-scoped.
+            Recommended for variables whose value may change.
+
+example : let age = 22;
+          console.log(age);
+
+          age = 23; // Reassigned
+          console.log(age);
+
+          // let age = 24; // ❌ Error: Cannot redeclare
+
+iii . const :---
+                  Cannot be redeclared.
+                  Cannot be reassigned.
+                  Block-scoped.
+                  Use it for values that should not change.
+
+example : 
+            const PI = 3.14159;
+            console.log(PI);
+            // PI = 3.14; // ❌ Error: Assignment to constant variable
+                
